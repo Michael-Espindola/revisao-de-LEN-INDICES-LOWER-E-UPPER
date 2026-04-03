@@ -1,0 +1,9 @@
+4. Login Padronizado (Tudo Pequeno)
+
+O que fazer: Peça para o usuário criar um e-mail. Como e-mails não costumam ter letras grandes, use o lower para mostrar
+ao usuário como o e-mail dele ficou gravado no sistema (tudo minúsculo).
+
+RESOLUÇÃO:
+
+email = input("crie um email: ")
+  print(email.lower())
