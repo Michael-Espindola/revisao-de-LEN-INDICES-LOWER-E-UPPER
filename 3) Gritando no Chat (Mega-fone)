@@ -1,0 +1,9 @@
+3. Gritando no Chat (Mega-fone)
+
+O que fazer: Peça para o usuário digitar um aviso importante. O seu programa deve imprimir esse aviso todo em maiúsculas
+(usando upper) para ninguém ignorar.
+
+RESOLUÇÃO:
+
+aviso = input("informe um aviso:")
+  print(aviso.upper())
