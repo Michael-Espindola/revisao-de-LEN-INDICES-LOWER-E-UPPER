@@ -1,0 +1,10 @@
+7. Transformador de Título: 
+
+O que fazer: Peça o título de um livro. O programa deve mostrar o título primeiro todo em
+MAIÚSCULO e depois todo em minúsculo.
+
+RESOLUÇÃO: 
+
+titulo = input("informe o titulo do livro: ")
+  print(titulo.upper())
+  print(titulo.lower())
