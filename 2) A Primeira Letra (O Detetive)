@@ -1,0 +1,11 @@
+2. A Primeira Letra (O Detetive)
+
+O que fazer: Peça o nome de uma cidade. Use o índice [0] para pegar a primeira letra.
+Se a primeira letra for "S", diga "Essa cidade começa com S!".
+
+RESOLUÇÃO:
+
+cidade = input("informe algum cidade: ")
+
+  if cidade[0] == "s" :
+    print("essa cidade começa com S")
