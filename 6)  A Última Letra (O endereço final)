@@ -1,0 +1,10 @@
+6. A Última Letra (O endereço final)
+
+O que fazer: Peça uma palavra qualquer. Use o len para descobrir o tamanho dela e tente imprimir a última letra.
+(Dica: se uma palavra tem 5 letras, a última mora no índice 4, porque começamos do 0! No Python, você também pode usar o 
+índice [-1] para pegar a última direto).
+
+RESOLUÇÃO:
+
+palavra = input("informe alguma palavra: ")
+  print(len(palavra) , palavra [-1 ])
