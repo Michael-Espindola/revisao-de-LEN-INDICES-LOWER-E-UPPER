@@ -1,0 +1,13 @@
+1. Contador de Caracteres (O limite do Twitter)
+
+O que fazer: Peça para o usuário digitar um pequeno texto. Se o tamanho (len) for maior que
+280, diga que o "Post é muito longo". Se não, diga "Post enviado".
+
+RESOLUÇÃO:
+
+texto = input("digite um texto: ")
+
+  if len(texto) > 280 :
+    print("post muito longo")
+  else:
+    print("post enviado")
