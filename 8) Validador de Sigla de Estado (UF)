@@ -1,0 +1,13 @@
+8. Validador de Sigla de Estado (UF)
+
+O que fazer: Peça para o usuário digitar a sigla do estado dele (ex: sp, RJ, mG). O programa deve transformar o que ele
+digitou em upper e verificar se o tamanho é igual a 2. Se for, diga "UF válida".
+
+RESOLUÇÃO:
+
+sigla = input("informe a sigla do seu estado: ")
+
+  if len(sigla) == 11:
+    print(sigla.upper() , "sigla válida")
+  else:
+    print("sigla inválida")
