@@ -1,0 +1,11 @@
+5. Verificador de DDD (Fatiamento e Tamanho)
+
+O que fazer: Peça um número de telefone com DDD (ex: 11999998888). Verifique se o tamanho é exatamente 11. Se for, mostre 
+apenas os dois primeiros números (o DDD) usando índices.
+
+RESOLUÇÃO: 
+
+telefone = input("informe um numero de telefone: (Ex: 11999998888) ")
+
+  if len(telefone) = 11 :
+    print(telefone[ : 2 ])
